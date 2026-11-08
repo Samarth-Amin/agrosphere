@@ -1,21 +1,24 @@
-# .NET generated files
-bin/
-obj/
-.vs/
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
 
-# User-specific files
-*.user
-*.suo
+# Node dependencies
+node_modules
 
-# Logs and temporary files
+# Logs
+logs
 *.log
-*.cache
 
-# Local databases
-*.db
-*.db-shm
-*.db-wal
+# Misc
+.DS_Store
+.fleet
+.idea
 
-# Local development secrets
-appsettings.Development.json
-secrets.json
+# Local env files
+.env
+.env.*
+!.env.example
